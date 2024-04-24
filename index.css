@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+}
+.top{
+    background-color: black;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.top a{
+    color: white;
+    margin-left: 96.5px;
+    overflow: hidden;
+}
+.top .about{
+    margin-left: 467px;
+}
+.top a:hover{
+    border-bottom: 5px solid gold;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.down li{
+    margin-left: -120px;
+    
+}
+.down img{
+    margin-right: 100px;
+}
+.down li a{
+    color: black;
+}
+.down button{
+     background-color: aliceblue;
+     width: 100px;
+     height: 40px;
+     border: 0;
+     border-radius: 10px;
+
+}
+.down button a{
+    color: blue;
+    font-weight: bold;
+}
+section{
+    margin-top: 150px;
+}
